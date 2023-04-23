@@ -39,3 +39,38 @@ Constraints:
   
 Solution-
   
+
+  //User function template for Java
+
+class Solution
+{
+    public static void sort012(int a[], int n)
+    {
+        int zero=0;
+        int one=0;
+        int two=0;
+        for(int i=0;i<a.length;i++){
+            if(a[i]==0)
+                zero++;
+            else if(a[i]==1)
+                one++;
+                else
+                 two++;
+        }
+        for(int j=0;j<n;j++){
+            if(zero>0){
+              a[j]=0;
+              zero--;
+            }
+             else if(one>0){
+               a[j]=1;
+               one--;
+             }
+               else{
+                   a[j]=2;
+                   two--;
+               }
+        }
+        
+    }
+}
