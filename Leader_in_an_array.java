@@ -46,3 +46,23 @@ Constraints:
   
 Solution -
   
+
+
+class Solution{
+    //Function to find the leaders in the array.
+    static ArrayList<Integer> leaders(int arr[], int n){
+        // Your code here
+        ArrayList<Integer> fin=new ArrayList<Integer>();
+       int max=arr[n-1];
+       fin.add(max);
+      
+        for(int i=n-2;i>=0;i--){
+            if(arr[i]>=max){
+                max=arr[i];
+                  fin.add(arr[i]);
+          }
+       }
+       Collections.reverse(fin);
+          return fin;
+    }
+}
