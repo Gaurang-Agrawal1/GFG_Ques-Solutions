@@ -46,3 +46,32 @@ Constraints:
   
   
   
+
+
+//User function Template for Java
+
+class Solution{
+    public static int kthSmallest(int[] arr, int l, int r, int k) 
+    { 
+        int largest=Integer.MIN_VALUE;
+        int fin;
+        int c=0;
+        int ans=0;
+        for(int i=0;i<arr.length;i++){
+            largest=Math.max(largest,arr[i]);
+        }
+        int count[]=new int[largest+1];
+        for(int i=0;i<arr.length;i++){
+            fin=arr[i];
+            count[fin]=1;
+        }
+       for(int i=0;i<count.length;i++){
+           c+=count[i];
+           if(c==k){
+               ans=i;
+               break;
+           }
+       }
+       return ans;
+    } 
+}
