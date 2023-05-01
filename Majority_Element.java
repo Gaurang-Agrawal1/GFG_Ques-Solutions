@@ -41,3 +41,9 @@ Expected Auxiliary Space: O(1).
 Constraints:
 1 ≤ N ≤ 107
 0 ≤ Ai ≤ 106
+
+  
+  
+Solution-
+  
+  
