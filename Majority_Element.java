@@ -47,3 +47,36 @@ Constraints:
 Solution-
   
   
+
+//User function Template for Java
+
+class Solution
+{
+    static int majorityElement(int a[], int size)
+    {
+       int ansind=0;
+       int c=1;
+       for(int i=1;i<a.length;i++){
+           if(a[i]==a[ansind]){
+               c++;
+           }
+           else{
+               c--;
+           }
+           if(c==0){
+               ansind=i;
+               c=1;
+           }
+       }
+       int c1=0;
+       for(int i=0;i<a.length;i++){
+           if(a[ansind]==a[i]){
+               c1++;
+           }
+           if(c1>size/2){
+               return a[ansind];
+           }
+       }
+       return -1;
+    }
+}
