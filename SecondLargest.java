@@ -37,3 +37,25 @@ Constraints:
 Solution-
   
   
+
+
+//User function Template for Java
+
+class Solution {
+    int print2largest(int arr[], int n) {
+        // code here
+        int l1=0;
+        int l2=0;
+        for(int i=0;i<n;i++){
+            l1=Math.max(l1,arr[i]);
+            
+        }
+        for(int i=0;i<n;i++){
+            if(arr[i]<l1&& arr[i]>l2){
+                l2=arr[i];
+            }
+        }
+        return l2==0?-1:l2;
+        
+    }
+}
