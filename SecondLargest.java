@@ -1,5 +1,4 @@
-
-Question-
+question-
   
   
 Given an array Arr of size N, print second largest distinct element from an array.
