@@ -29,3 +29,24 @@ Constraints:
 Solution-
   
   
+
+
+//User function Template for Java
+
+
+class Reverse
+{
+    // Complete the function
+    // str: input string
+    public static String reverseWord(String str)
+    {
+        // Reverse the string str\
+      String temp="";
+       for(int i=str.length()-1;i>=0;i--){
+           temp+=str.charAt(i);
+           
+       }
+       return temp;
+        
+    }
+}
