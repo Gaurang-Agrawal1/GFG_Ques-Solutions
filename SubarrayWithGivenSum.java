@@ -44,3 +44,7 @@ Constraints:
 1 <= N <= 105
 1 <= Ai <= 109
 0<= S <= 1014
+
+
+
+Solution-
