@@ -33,3 +33,10 @@ Expected Auxiliary Space: O(logN)
 Constraints:
 1 <= N <= 103
 1 <= arr[i] <= 104
+
+
+
+
+Solution-
+
+
