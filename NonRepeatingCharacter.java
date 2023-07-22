@@ -29,3 +29,11 @@ Note: N = |S|
 
 Constraints:
 1 <= N <= 105
+
+
+
+
+Solution-
+
+
+
