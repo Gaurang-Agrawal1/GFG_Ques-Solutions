@@ -36,3 +36,6 @@ Expected Auxiliary Space: O(1).
 Constraints:
 1 ≤ n ≤ 106
 0 ≤ arr[i] ≤107
+
+
+Solution-
