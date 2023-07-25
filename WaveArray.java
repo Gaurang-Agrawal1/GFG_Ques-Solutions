@@ -39,3 +39,20 @@ Constraints:
 
 
 Solution-
+
+
+
+class Solution {
+    public static void convertToWave(int n, int[] arr) {
+        // code here
+        int temp=0;
+        for(int i=0;i<n-1;i+=2){
+            if(arr[i]<arr[i+1]){
+                temp=arr[i];
+                arr[i]=arr[i+1];
+                arr[i+1]=temp;
+           }
+       }
+    }
+}
+
