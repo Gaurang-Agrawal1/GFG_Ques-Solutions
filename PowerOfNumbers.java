@@ -29,3 +29,29 @@ Constraints:
 
 
 Solution
+
+
+
+
+class Solution{
+    public:
+    //You need to complete this fucntion
+    
+    long long power(int N,int R)
+    {
+         
+    int m = 1e9+7;
+        
+       if(R == 1) {  
+            return N;
+       }
+       long long t = power(N, R / 2) % m;
+       t = (t* t) % m;
+       if(R % 2 != 0){
+           return (t * N) % m;
+       }
+       return t;
+        
+    }
+
+};
