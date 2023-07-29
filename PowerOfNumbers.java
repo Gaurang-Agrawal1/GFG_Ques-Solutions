@@ -24,3 +24,8 @@ Expected Auxiliary Space:O(1).
 
 Constraints:
 0 ≤N ≤1018
+
+
+
+
+Solution
