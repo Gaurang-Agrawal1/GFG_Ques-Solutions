@@ -1,7 +1,7 @@
 Question-
 
 
-  You are given an array A of size N. You need to print elements of A in alternate order (starting from index 0).
+You are given an array A of size N. You need to print elements of A in alternate order (starting from index 0).
 
 Example 1:
 
@@ -26,3 +26,6 @@ Constraints:
 
 Expected Time Complexity: O(n)
 Expected Auxiliary Space: O(1)
+
+
+  Solution-
