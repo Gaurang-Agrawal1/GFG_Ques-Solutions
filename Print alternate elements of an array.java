@@ -28,7 +28,7 @@ Expected Time Complexity: O(n)
 Expected Auxiliary Space: O(1)
 
 
-  Solution-
+  Solution
 
 
 //User function Template for Java
