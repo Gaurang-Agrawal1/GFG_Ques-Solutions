@@ -28,13 +28,9 @@ Expected Time Complexity: O(n)
 Expected Auxiliary Space: O(1)
 
 
-  Solution
+  Solution-
 
 
-//User function Template for Java
-
-// arr[] is the array 
-// n is the number of elements in array.
 class GfG
 {
     public static void print(int arr[], int n)
