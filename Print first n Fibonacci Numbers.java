@@ -23,3 +23,7 @@ Note: This space is used to store and return the answer for printing purpose.
 
 Constraints:
 1<= N <=84
+
+
+
+Solution-
