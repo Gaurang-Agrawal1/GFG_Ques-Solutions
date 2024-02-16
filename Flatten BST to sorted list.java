@@ -62,3 +62,6 @@ Constraints:
 1 <= Number of nodes <= 103
 1 <= Data of a node <= 105
 
+
+
+Solution-
