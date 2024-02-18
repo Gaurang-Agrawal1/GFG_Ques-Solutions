@@ -41,3 +41,31 @@ Constraints:
 Solution-
 
 
+class Solution {
+    public int longestCommonPrefix(int[] arrayA, int[] arrayB) {
+    Map<String, Integer> prefixMap = new HashMap<>();
+        int lengthA = arrayA.length;
+        for (int i = 0; i < lengthA; i++) {
+            String numStrA = Integer.toString(arrayA[i]);
+            for (int j = 0; j < numStrA.length(); j++) {
+                String prefixA = numStrA.substring(0, j + 1);
+                prefixMap.put(prefixA, prefixMap.getOrDefault(prefixA, 0) + 1);
+            }
+        }
+        int maxPrefixLength = 0;
+        int lengthB = arrayB.length;
+        for (int i = 0; i < lengthB; i++) {
+            String numStrB = Integer.toString(arrayB[i]);
+            for (int j = 0; j < numStrB.length(); j++) {
+                String prefixB = numStrB.substring(0, j + 1);
+                if (prefixMap.containsKey(prefixB)) {
+                    int prefixLength = prefixB.length();
+                    maxPrefixLength = Math.max(maxPrefixLength, prefixLength);
+                }
+            }
+        }
+        return maxPrefixLength;
+        
+      
+    }
+}
