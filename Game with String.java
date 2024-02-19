@@ -30,3 +30,8 @@ Expected Auxiliary Space: O(n)
 Constraints:
 0 ≤ k ≤ |string length| ≤ 105
 
+
+
+Solution-
+
+
