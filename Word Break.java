@@ -1,3 +1,6 @@
+Question-
+
+
 
 Given a string A and a dictionary of n words B, find out if A can be segmented into a space-separated sequence of dictionary words. Return 1 if it is possible to break A into sequence of dictionary words, else return 0. 
 
