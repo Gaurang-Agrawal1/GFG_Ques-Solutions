@@ -34,3 +34,12 @@ Constraints:
 
 1 <= n <= 105
 1 <= price[i] <= 105
+
+
+
+Solution-
+
+
+
+
+
