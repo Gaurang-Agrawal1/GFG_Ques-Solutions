@@ -35,3 +35,8 @@ Constraints:
 1 <= n <= 105
 1 <= arr[i] <= 105
 
+
+
+Solution-
+
+
