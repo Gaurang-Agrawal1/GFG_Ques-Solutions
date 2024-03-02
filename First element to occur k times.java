@@ -38,5 +38,22 @@ Constraints:
 Solution-
 
 
-
+class Solution
+{
+    public int firstElementKTime(int n, int k, int[] a) { 
+        
+          HashMap<Integer,Integer> hmap = new HashMap<>();
+        for(int i=0;i<n;i++){
+            if(!hmap.containsKey(a[i])){
+                hmap.put(a[i],1);
+            }else{
+                hmap.put(a[i],hmap.get(a[i])+1);
+                if(hmap.get(a[i])==k){
+                    return a[i];
+                }
+            }
+        }
+        return -1;
+    } 
+}
 
