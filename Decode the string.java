@@ -19,3 +19,8 @@ Explanation:
 Constraints:
 1 ≤ |s| ≤ 105 
 1 <= k <= 100
+
+
+Solution-
+
+
