@@ -18,3 +18,7 @@ Explanation: The next permutation of the given array is [3, 4, 5, 1, 2].
 Constraints:
 1 ≤ arr.size() ≤ 105
 0 ≤ arr[i] ≤ 105
+
+
+Solution-
+
