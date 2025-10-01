@@ -14,3 +14,9 @@ Output: [[2, 3], [3, 2]]
 Explanation: These are the only possible distinct permutations for the given array.
 Constraints:
 1 ≤ arr.size() ≤ 9
+
+
+Solution-
+
+
+  
