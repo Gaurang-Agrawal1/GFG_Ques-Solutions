@@ -13,3 +13,20 @@ Output: 2
 Explanation: 2 AND 3 = 2.
 Constraints:
 1 ≤ l ≤ r ≤ 109
+
+
+Solution-
+
+
+class Solution {
+    public int andInRange(int l, int r) {
+        // Code here
+        while(r > l)
+
+        r = r & (r-1);
+
+        
+
+        return r&l;
+    }
+}
