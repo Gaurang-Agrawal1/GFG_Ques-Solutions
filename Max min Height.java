@@ -21,3 +21,8 @@ Constraints:
 1 ≤ w ≤ arr.size()
 1 ≤ k ≤ 105
 1 ≤ arr[i] ≤ 109
+
+
+Solution-
+
+
